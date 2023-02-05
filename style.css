@@ -1,0 +1,192 @@
+/*background color for top page */
+.pageheader{
+    background-color:#1f2937;
+    padding-bottom:100px;
+}
+
+/*heading text format*/
+.heading{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+
+/*heading sub-text format */
+.headtext,a{
+    font-size: 18px;
+    color: #E5E7Eb
+}
+
+.logo{
+    margin-top:auto;
+    display:flex;
+    justify-content:start;
+    
+   
+}
+
+.mainLogo {
+    display:flex;
+    justify-content:left;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin:4px;
+    margin-left:-80px;
+}
+
+button {
+    background-color: #008CBA;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    cursor:pointer;
+}
+
+.infoheader{
+    font-size:36px;
+    font-weight:bolder;
+    color: #1f2937;
+}
+
+.bottompage{
+    background-color:#e5e7eb;
+    font-style:italic;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 300;
+}
+
+.main{
+    width:250px;
+    height:auto;
+}
+
+.hobbie{
+    width:100px;
+    height:auto;
+    
+    border:3px solid deepskyblue;
+    border-radius: 10px;
+}
+
+/*.pageheader{
+    display:flex;
+}*/
+
+.nav{
+    display:flex;
+    justify-content: space-around;
+}
+
+.description{
+    text-align:center;
+    flex:1 1 0;
+}
+
+
+.hobbieimg
+{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom:50px;
+}
+
+.midheading{
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+
+.caption{
+    display:flex;
+    justify-content: space-evenly
+}
+
+.webheader{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content:center;
+    padding-bottom:50px;
+}
+
+.bottom-button{
+    border:2px solid white;
+    font-size:20px;
+    width:200px;
+    height:50px;
+    margin-top:40px;
+    
+}
+
+.rectangle {
+    background-color: #6E6E6E;
+    padding: 50px 600px;
+    border-radius: 5px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.button-instruction{
+    color:white;
+    font-size: 40px;
+    word-wrap:break-word;
+    margin-right:30px;
+
+}
+
+.links{
+    display:flex;
+    gap:normal;
+}
+
+a{
+    margin-right:50px;
+    padding:20px;
+}
+
+body,.res {
+    background-color: #6E6E6E;
+}
+
+.topLayer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+}
+.main {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #dadada
+}
+
+.sadImg {
+    height: 200px;
+    width: 200px;
+    border: 2px solid deepskyblue;
+}
+
+.sadImgSmall {
+    height: 300px;
+    width: 300px;
+    
+}
+
+.sadContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
