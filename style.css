@@ -15,6 +15,12 @@
 .headtext,a{
     font-size: 18px;
     color: #E5E7Eb
+    animation: body-load 300ms ease-in 400ms;
+}
+
+body{
+    margin: 0;
+    --nav-load-time: 300ms;
 }
 
 .logo{
@@ -80,6 +86,7 @@ button {
 .nav{
     display:flex;
     justify-content: space-around;
+    animation: nav-load var(--nav-load-time) ease-in;
 }
 
 .description{
@@ -189,4 +196,35 @@ body,.res {
     flex-wrap: wrap;
     justify-content: space-evenly;
     
+}
+
+nav: hover{
+    background-color: #ffffff44;
+}
+
+.headtext{
+padding: 30px; 
+}
+
+
+@keyframes nav-load {
+    0%{
+        transform: translateY(-100%);
+    }
+    
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes body-load{
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
