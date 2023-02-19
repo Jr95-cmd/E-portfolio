@@ -14,8 +14,8 @@
 /*heading sub-text format */
 .headtext,a{
     font-size: 18px;
-    color: #E5E7Eb
-    animation: body-load 300ms ease-in 400ms;
+    color: #E5E7Eb;
+    animation: body-load 300ms ease-in;
 }
 
 body{
@@ -32,15 +32,15 @@ body{
 }
 
 .mainLogo {
-    display:flex;
-    justify-content:left;
+    display: flex;
+    justify-content: left;
     height: 100px;
     width: 100px;
     border-radius: 50%;
     vertical-align: middle;
-    margin:4px;
-    margin-left:-80px;
-}
+    margin: 4px;
+    margin-left: -60px;
+ }
 
 button {
     background-color: #008CBA;
@@ -66,9 +66,10 @@ button {
     font-weight: 300;
 }
 
-.main{
-    width:250px;
-    height:auto;
+.main {
+    width: 250px;
+    height: auto;
+    animation: nav-load var(--nav-load-time) ease-in;
 }
 
 .hobbie{
@@ -83,7 +84,7 @@ button {
     display:flex;
 }*/
 
-.nav{
+.nav,.heading{
     display:flex;
     justify-content: space-around;
     animation: nav-load var(--nav-load-time) ease-in;
@@ -198,7 +199,7 @@ body,.res {
     
 }
 
-nav: hover{
+a:hover{
     background-color: #ffffff44;
 }
 
@@ -206,7 +207,9 @@ nav: hover{
 padding: 30px; 
 }
 
-
+nav{
+    height:5px;
+}
 @keyframes nav-load {
     0%{
         transform: translateY(-100%);
@@ -227,4 +230,12 @@ padding: 30px;
         transform: translateY(0px);
         opacity: 1;
     }
+}
+li{
+    list-style-type:none;
+    display:inline-flex;
+}
+
+.llogo {
+    animation: nav-load var(--nav-load-time) ease-in;
 }
