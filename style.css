@@ -190,6 +190,11 @@ body,.res {
     border: 2px solid deepskyblue;
 }
 
+.ssImg {
+    height: 200px;
+    border: 2px solid deepskyblue;
+}
+
 .sadImgSmall {
     height: 300px;
     width: 300px;
