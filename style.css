@@ -163,7 +163,9 @@ a{
     padding:20px;
  }
 
-
+bodyLink{
+    color:black;
+}
 
 body,.res {
     background-color: #E7E7E7;
